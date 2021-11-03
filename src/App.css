@@ -1,1 +1,47 @@
+body {
+  border: black solid 3px;
+  margin: auto;
+  width: 1360px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+.counter,
+.reset {
+  background-color: #5c48d3;
+  color: white;
+  border-radius: 15px;
+}
+
+.counter {
+  /* padding: 10px; */
+  width: 150px;
+  height: 150px;
+  font-size: 80px;
+}
+
+.plus,
+.minus {
+  font-size: 80px;
+  margin: 0 40px;
+}
+
+.reset {
+  width: 150px;
+  height: 40px;
+  font-weight: 20px;
+}
